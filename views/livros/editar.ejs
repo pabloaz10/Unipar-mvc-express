@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editar Livro</title>
+</head>
+<body>
+    <h1>editar Livro</h1>
+    <form action="/livros/<%= livro.id %>" method="POST">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" value="<%= livro.titulo %>" required>
+
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" name="autor" value="<%= livro.autor %>" required>
+        
+        <button type="submit">editar Livro</button>
+    </form>
+    <a href="/livros">Voltar para a lista de livros</a>
+
+</body>
+</html>
