@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>editar Livro</title>
@@ -18,5 +19,23 @@
     </form>
     <a href="/livros">Voltar para a lista de livros</a>
 
+=======
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Livro</title>
+</head>
+<body>
+  <h1>Editar Livro</h1> 
+  <a href="/livros">Voltar para Lista de Livros</a>
+  <form action="/livros/<%= livro.id %>" method="post">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" value="<%= livro.titulo %>" required>
+    <br>
+    <label for="autor">Autor:</label>
+    <input type="text" id="autor" name="autor" value="<%= livro.autor %>" required>
+    <br>
+    <button type="submit">Adicionar Livro</button>
+  </form>
+>>>>>>> b753ad3b4af17f0cf6f08b30858b4e085762dd8a
 </body>
 </html>

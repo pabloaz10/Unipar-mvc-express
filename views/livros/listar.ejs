@@ -8,6 +8,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
   <h1>Lista de Livros</h1>
   <a href="/livros/criar">Adicionar Novo Livro</a>
   <ul>
@@ -16,6 +17,17 @@
         <%= livro.titulo %> - <%= livro.autor %> <a href="/livros/<%= livro.id %>/editar">Editar</a>
       </li>
       <% }); %>
+=======
+  <h1>Lista de Livros</h1> 
+  <a href="/livros/criar">Criar Livro</a>
+  <ul>
+    <% livros.forEach(livro => { %>
+      <li>
+        <%= livro.titulo %> - <%= livro.autor %>
+          <a href="/livros/<%= livro.id %>/editar">Editar</a>
+        </li>
+    <% }); %>
+>>>>>>> b753ad3b4af17f0cf6f08b30858b4e085762dd8a
   </ul>
 </body>
 

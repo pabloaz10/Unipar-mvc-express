@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const DB = require('../db');
+=======
+const DB = require("../db");
+>>>>>>> b753ad3b4af17f0cf6f08b30858b4e085762dd8a
 
 const livroModel = {
   getAll: async () => {
@@ -20,6 +24,11 @@ const livroModel = {
     const response = await DB.put(`/livros/${id}`, livroAtualizado);
     return response.data;
   }
+<<<<<<< HEAD
+};
+=======
+>>>>>>> b753ad3b4af17f0cf6f08b30858b4e085762dd8a
+
 };
 
-  module.exports = livroModel;
+module.exports = livroModel;

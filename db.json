@@ -6,6 +6,7 @@
       "autor": "J.R.R. Tolkien"
     },
     {
+<<<<<<< HEAD
       "titulo": "O Hobbit 2",
       "autor": "J.R.R. Tolkien",
       "id": "2"
@@ -39,6 +40,26 @@
       "id": "2717",
       "titulo": "tyytutyy",
       "autor": "tyutyuty"
+=======
+      "id": "2",
+      "titulo": "O Hobbit",
+      "autor": "J.R.R. Tolkien"
+    },
+    {
+      "id": "a2c2",
+      "titulo": "erewwr",
+      "autor": "werew"
+    },
+    {
+      "id": "4616",
+      "titulo": "rwerwe",
+      "autor": "rwerewr"
+    },
+    {
+      "titulo": "Allan2",
+      "autor": "aaaaa",
+      "id": "caaa"
+>>>>>>> b753ad3b4af17f0cf6f08b30858b4e085762dd8a
     }
   ]
 }
